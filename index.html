@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Responsive Bootstrap One Page Parallax Website"
+    />
+    <meta name="keywords" content="HTML CSS Bootstrap Popper.js" />
+
+    <!-- Title -->
+    <title>Angora</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/logo/icon.png" type="image/x-icon" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Poppins:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!-- Style Sheets -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-md navbar-dark bg-transparent align-items-center border-bottom border-bottom-1 fw-bold position-absolute top-0 start-0 end-0"
+    >
+      <div class="container-md">
+        <a class="navbar-brand py-0" href="#">
+          <img
+            src="images/logo/logo-white.png"
+            class="d-block w-100"
+            alt="Angora's Header Logo"
+          />
+        </a>
+        <button
+          class="navbar-toggler shadow-none fs-4 position-relative"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end menu-ham"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav p-2 mx-md-3">
+            <li class="nav-item">
+              <a
+                class="nav-link py-sm-2 py-md-0 mx-md-2 active"
+                aria-current="page"
+                href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link py-sm-2 py-md-0 mx-md-2" href="#about"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link py-sm-2 py-md-0 mx-md-2" href="#team">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link py-sm-2 py-md-0 mx-md-2" href="#services"
+                >Services</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link py-sm-2 py-md-0 mx-md-2" href="#contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="social text-white d-none d-lg-block">
+          <i class="fab fa-twitter mx-2"></i>
+          <i class="fab fa-facebook-f mx-2"></i>
+          <i class="fab fa-instagram mx-2"></i>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main -->
+    <section id="home" class="main slider vh-100">
+      <div
+        id="carouselExampleFade"
+        class="carousel slide carousel-fade text-white position-relative"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner text-center">
+          <div
+            class="carousel-item slider-1 vh-100 d-flex justify-content-center align-items-center active"
+          >
+            <h1 class="fw-bold">
+              We build<br />
+              great brands.
+            </h1>
+          </div>
+          <div
+            class="carousel-item slider-2 vh-100 d-flex justify-content-center align-items-center"
+          >
+            <h1 class="fw-bold">
+              Focused<br />
+              on strategy.
+            </h1>
+          </div>
+          <div
+            class="carousel-item slider-3 vh-100 d-flex justify-content-center align-items-center"
+          >
+            <h1 class="fw-bold">
+              Advanced in<br />
+              digital works.
+            </h1>
+          </div>
+        </div>
+
+        <div class="slider-buttons position-absolute start-0 top-0 vh-100">
+          <div class="d-flex flex-column justify-content-center align-items-center vh-100">
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleFade"
+              data-bs-slide="prev"
+            >
+              <i class="fas fa-chevron-left prev"></i>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleFade"
+              data-bs-slide="next"
+            >
+              <i class="fas fa-chevron-right next"></i>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+
+    <section id="about" class="about py-5">
+      <div class="container-md">
+        <div class="row my-3">
+          <div class="heading col-md-8 text-center m-auto">
+            <h2 class="heading-title fw-bold pb-2 position-relative">
+              About Us
+            </h2>
+            <p class="">
+              Pellentesque elementum libero enim, eget gravida nunc laoreet et.
+              Nullam ac enim auctor, fringilla risus at, imperdiet turpis.
+              Pellentesque elementum libero enim.
+            </p>
+          </div>
+        </div>
+        <div class="row mb-5">
+          <div class="col-lg-7 about-details">
+            <p>
+              Pellentesque vel elit egestas, pretium est ac, convallis orci.
+              Vivamus sem nisl, tristique vel fringilla vitae, efficitur at
+              eros. Duis aliquet aliquet pharetra. Suspendisse bibendum erat
+              quis gravida pulvinar. Phasellus vel eros porta, blandit dui ac,
+              viverra felis.
+            </p>
+            <p>
+              Nunc placerat iaculis pulvinar. Nullam auctor mauris sed urna
+              posuere volutpat. Mauris ut dui sit amet elit fermentum fermentum.
+              Fusce tincidunt diam at bibendum porta.
+            </p>
+            <p>
+              Aliquam nunc felis, sagittis eu purus non, interdum vehicula urna.
+              Vivamus congue diam sapien, eu pellentesque ipsum ultricies quis.
+            </p>
+          </div>
+          <div class="col-lg-5 about-progress">
+            <div class="bar mb-3">
+              <div class="progress-heading w-80 d-flex justify-content-between">
+                <p class="progress-title mb-1">Branding</p>
+                <p class="progress-value mb-2">80%</p>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 80%"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div class="bar mb-3">
+              <div class="progress-heading w-95 d-flex justify-content-between">
+                <p class="progress-title mb-1">Web Design</p>
+                <p class="progress-value mb-2">95%</p>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 95%"
+                  aria-valuenow="95"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div class="bar mb-3">
+              <div class="progress-heading w-85 d-flex justify-content-between">
+                <p class="progress-title mb-1">Graphic Design</p>
+                <p class="progress-value mb-2">85%</p>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 85%"
+                  aria-valuenow="85"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div class="bar mb-3">
+              <div class="progress-heading w-70 d-flex justify-content-between">
+                <p class="progress-title mb-1">Development</p>
+                <p class="progress-value mb-2">70%</p>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 70%"
+                  aria-valuenow="70"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team -->
+    <section id="team" class="team py-5">
+      <div class="container-md">
+        <div class="row my-3">
+          <div class="heading col-md-8 text-center m-auto">
+            <h2 class="heading-title fw-bold pb-2 position-relative">
+              Our Team
+            </h2>
+            <p class="">
+              Vestibulum ante ipsum primis in faucibus orci. Morbi tincidunt
+              urna imperdiet tincidunt rhoncus. Sed mollis ligula non massa
+              aliquam faucibus.
+            </p>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-lg-3 col-md-6">
+            <div class="team-member">
+              <div
+                class="member-img overflow-hidden rounded-2 position-relative"
+              >
+                <img src="images/team/member-1.jpg" class="w-100" alt="" />
+                <div
+                  class="img-overlay position-absolute top-0 bottom-0 start-0 end-0 d-flex justify-content-center align-items-center"
+                >
+                  <a href="#"
+                    ><i class="fab fa-twitter mx-3 text-white fs-6"></i
+                  ></a>
+                  <a href="#"
+                    ><i class="fab fa-facebook-f mx-3 text-white fs-6"></i
+                  ></a>
+                  <a href="#"
+                    ><i class="fab fa-linkedin-in mx-3 text-white fs-6"></i
+                  ></a>
+                  <a href="#"
+                    ><i class="fab fa-dribbble mx-3 text-white fs-6"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="member-info py-3">
+                <h5 class="fs-6 fw-bold mb-0">Michael Broad</h5>
+                <p>Web Designer</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="team-member">
+              <div
+                class="member-img overflow-hidden rounded-2 position-relative"
+              >
+                <img src="images/team/member-2.jpg" class="w-100" alt="" />
+                <div
+                  class="img-overlay position-absolute top-0 bottom-0 start-0 end-0 d-flex justify-content-center align-items-center"
+                >
+                  <a href="#"
+                    ><i class="fab fa-twitter mx-3 text-white fs-6"></i
+                  ></a>
+                  <a href="#"
+                    ><i class="fab fa-facebook-f mx-3 text-white fs-6"></i
+                  ></a>
+                  <a href="#"
+                    ><i class="fab fa-linkedin-in mx-3 text-white fs-6"></i
+                  ></a>
+                  <a href="#"
+                    ><i class="fab fa-dribbble mx-3 text-white fs-6"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="member-info py-3">
+                <h5 class="fs-6 fw-bold mb-0">Jeannette Crow</h5>
+                <p>CEO Founder</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="team-member">
+              <div
+                class="member-img overflow-hidden rounded-2 position-relative"
+              >
+                <img src="images/team/member-3.jpg" class="w-100" alt="" />
+                <div
+                  class="img-overlay position-absolute top-0 bottom-0 start-0 end-0 d-flex justify-content-center align-items-center"
+                >
+                  <a href="#"
+                    ><i class="fab fa-twitter mx-3 text-white fs-6"></i
+                  ></a>
+                  <a href="#"
+                    ><i class="fab fa-facebook-f mx-3 text-white fs-6"></i
+                  ></a>
+                  <a href="#"
+                    ><i class="fab fa-linkedin-in mx-3 text-white fs-6"></i
+                  ></a>
+                  <a href="#"
+                    ><i class="fab fa-dribbble mx-3 text-white fs-6"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="member-info py-3">
+                <h5 class="fs-6 fw-bold mb-0">Martin Lawrence</h5>
+                <p>App Developer</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="team-member">
+              <div
+                class="member-img overflow-hidden rounded-2 position-relative"
+              >
+                <img src="images/team/member-4.jpg" class="w-100" alt="" />
+                <div
+                  class="img-overlay position-absolute top-0 bottom-0 start-0 end-0 d-flex justify-content-center align-items-center"
+                >
+                  <a href="#"
+                    ><i class="fab fa-twitter mx-3 text-white fs-6"></i
+                  ></a>
+                  <a href="#"
+                    ><i class="fab fa-facebook-f mx-3 text-white fs-6"></i
+                  ></a>
+                  <a href="#"
+                    ><i class="fab fa-linkedin-in mx-3 text-white fs-6"></i
+                  ></a>
+                  <a href="#"
+                    ><i class="fab fa-dribbble mx-3 text-white fs-6"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="member-info py-3">
+                <h5 class="fs-6 fw-bold mb-0">Isabella Dowson</h5>
+                <p>Creative Director</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Info Box -->
+    <section id="info-box" class="info-box py-5">
+      <div class="container pt-5">
+        <div class="row m-auto align-items-center justify-content-md-around">
+          <div class="col-md-6 col-md-offset-1 text-center text-md-start">
+            <h3 class="fw-normal">Do you have any ideas?</h3>
+          </div>
+          <div class="col-md-3 text-center justify-content-md-between">
+            <button class="button fw-bold border-0 rounded-2">
+              Contact Us
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="services grey-sections py-5">
+      <div class="container-md">
+        <div class="row my-3">
+          <div class="heading col-md-8 text-center m-auto">
+            <h2 class="heading-title fw-bold pb-2 position-relative">
+              Services
+            </h2>
+            <p class="">
+              Pellentesque elementum libero enim, eget gravida nunc laoreet et.
+              Nullam ac enim auctor, fringilla risus at, imperdiet turpis.
+              Pellentesque elementum libero enim.
+            </p>
+          </div>
+        </div>
+        <div class="row my-2">
+          <div class="col-lg-4 col-md-6 p-3">
+            <div class="service d-flex justify-content-between">
+              <div class="service-icon">
+                <i class="fas fa-laptop"></i>
+              </div>
+              <div class="service-info ps-3 py-1">
+                <h3 class="fw-bold">Responsive Layout</h3>
+                <p class="">
+                  Ferri reque integre mea ut, eu eos vide errem noluise se.
+                  Putent laoreet et ius utroque dissentias ut.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 p-3">
+            <div class="service d-flex justify-content-between">
+              <div class="service-icon">
+                <i class="fas fa-pencil-ruler"></i>
+              </div>
+              <div class="service-info ps-3 py-1">
+                <h3 class="fw-bold">Modern Design</h3>
+                <p class="">
+                  Ferri reque integre mea ut, eu eos vide errem noluise se.
+                  Putent laoreet et ius utroque dissentias ut.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 p-3">
+            <div class="service d-flex justify-content-between">
+              <div class="service-icon">
+                <i class="far fa-flag"></i>
+              </div>
+              <div class="service-info ps-3 py-1">
+                <h3 class="fw-bold">Font Awesome Icons</h3>
+                <p class="">
+                  Ferri reque integre mea ut, eu eos vide errem noluise se.
+                  Putent laoreet et ius utroque dissentias ut.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 p-3">
+            <div class="service d-flex justify-content-between">
+              <div class="service-icon">
+                <i class="fas fa-mail-bulk"></i>
+              </div>
+              <div class="service-info ps-3 py-1">
+                <h3 class="fw-bold">Ajax Portfolio</h3>
+                <p class="">
+                  Ferri reque integre mea ut, eu eos vide errem noluise se.
+                  Putent laoreet et ius utroque dissentias ut.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 p-3">
+            <div class="service d-flex justify-content-between">
+              <div class="service-icon">
+                <i class="fas fa-cog"></i>
+              </div>
+              <div class="service-info ps-3 py-1">
+                <h3 class="fw-bold">Color Options</h3>
+                <p class="">
+                  Ferri reque integre mea ut, eu eos vide errem noluise se.
+                  Putent laoreet et ius utroque dissentias ut.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 p-3">
+            <div class="service d-flex justify-content-between">
+              <div class="service-icon">
+                <i class="fas fa-headset"></i>
+              </div>
+              <div class="service-info ps-3 py-1">
+                <h3 class="fw-bold">Audio Support</h3>
+                <p class="">
+                  Ferri reque integre mea ut, eu eos vide errem noluise se.
+                  Putent laoreet et ius utroque dissentias ut.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 p-3">
+            <div class="service d-flex justify-content-between">
+              <div class="service-icon">
+                <i class="fas fa-clipboard-list"></i>
+              </div>
+              <div class="service-info ps-3 py-1">
+                <h3 class="fw-bold">Well Documented</h3>
+                <p class="">
+                  Ferri reque integre mea ut, eu eos vide errem noluise se.
+                  Putent laoreet et ius utroque dissentias ut.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 p-3">
+            <div class="service d-flex justify-content-between">
+              <div class="service-icon">
+                <i class="fas fa-video"></i>
+              </div>
+              <div class="service-info ps-3 py-1">
+                <h3 class="fw-bold">Background Videos</h3>
+                <p class="">
+                  Ferri reque integre mea ut, eu eos vide errem noluise se.
+                  Putent laoreet et ius utroque dissentias ut.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 p-3">
+            <div class="service d-flex justify-content-between">
+              <div class="service-icon">
+                <i class="fas fa-sliders-h fa-rotate-270"></i>
+              </div>
+              <div class="service-info ps-3 py-1">
+                <h3 class="fw-bold">Intro Slider</h3>
+                <p class="">
+                  Ferri reque integre mea ut, eu eos vide errem noluise se.
+                  Putent laoreet et ius utroque dissentias ut.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Client Reviews -->
+    <section id="reviews" class="reviews py-5 text-center">
+      <div class="container-md">
+        <div class="row my-3">
+          <div class="heading col-md-8 text-center m-auto">
+            <h2 class="heading-title fw-bold pb-2 position-relative">
+              Client Reviews
+            </h2>
+            <p class="">
+              Pellentesque elementum libero enim, eget gravida nunc laoreet et.
+              Nullam ac enim auctor, fringilla risus at, imperdiet turpis.
+              Pellentesque elementum libero enim.
+            </p>
+          </div>
+        </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators position-static d-flex align-items-center">
+
+              <div class="indicator-item">
+                  <img type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                      class=" rounded-circle" aria-current="true" aria-label="Slide 1" src="images/client-reviews/client-1.png"
+                      alt="" srcset="">
+                  <div class="client-info">
+                      <h3>Hugh Tace</h3>
+                      <span>From Capital</span>
+                  </div>
+              </div>
+              <div class="indicator-item">
+                  <img type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                      class="rounded-circle" aria-current="true" aria-label="Slide 2" src="images/client-reviews/client-2.png"
+                      alt="" srcset="">
+                  <div class="client-info">
+                      <h3>Hugh Tace</h3>
+                      <span>From Capital</span>
+                  </div>
+              </div>
+              <div class="indicator-item">
+                  <img type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                      class="rounded-circle active" aria-current="true" aria-label="Slide 3"
+                      src="images/client-reviews/client-3.png" alt="" srcset="">
+                  <div class="client-info">
+                      <h3>Hugh Tace</h3>
+                      <span>From Capital</span>
+                  </div>
+              </div>
+              <div class="indicator-item">
+                  <img type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                      class="rounded-circle" aria-current="true" aria-label="Slide 4" src="images/client-reviews/client-4.png"
+                      alt="" srcset="">
+                  <div class="client-info">
+                      <h3>Hugh Tace</h3>
+                      <span>From Capital</span>
+                  </div>
+              </div>
+              <div class="indicator-item">
+                  <img type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                      class="rounded-circle" aria-current="true" aria-label="Slide 5" src="images/client-reviews/client-5.png"
+                      alt="" srcset="">
+                  <div class="client-info">
+                      <h3>Hugh Tace</h3>
+                      <span>From Capital</span>
+                  </div>
+              </div>
+
+          </div>
+          <div class="carousel-inner">
+              <div class="carousel-item">
+                  <div class="single-box">
+                      <p class="review-caption"><i class="fas fa-quote-left"></i> Aenean sit amet est orci. Aenean at nisi eget nulla
+                          lobortis commodo. Nam eget lorem in ex aliquam dapibus. <i
+                              class="fas fa-quote-right"></i></p>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="single-box">
+                      <p class="review-caption"><i class="fas fa-quote-left"></i> Aenean sit amet est orci. Aenean at nisi eget nulla
+                          lobortis commodo. Nam eget lorem in ex aliquam dapibus. <i
+                              class="fas fa-quote-right"></i></p>
+                  </div>
+              </div>
+              <div class="carousel-item active">
+                  <div class="single-box">
+                      <p class="review-caption"><i class="fas fa-quote-left"></i> Aenean sit amet est orci. Aenean at nisi eget nulla
+                          lobortis commodo. Nam eget lorem in ex aliquam dapibus. <i
+                              class="fas fa-quote-right"></i></p>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="single-box">
+                      <p class="review-caption"><i class="fas fa-quote-left"></i> Aenean sit amet est orci. Aenean at nisi eget nulla
+                          lobortis commodo. Nam eget lorem in ex aliquam dapibus. <i
+                              class="fas fa-quote-right"></i></p>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="single-box">
+                      <p class="review-caption"><i class="fas fa-quote-left"></i> Aenean sit amet est orci. Aenean at nisi eget nulla
+                          lobortis commodo. Nam eget lorem in ex aliquam dapibus. <i
+                              class="fas fa-quote-right"></i></p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact grey-sections py-5">
+      <div class="container-md">
+        <div class="row my-3">
+          <div class="heading col-md-8 text-center m-auto">
+            <h2 class="heading-title fw-bold pb-2 position-relative">
+              Get In Touch
+            </h2>
+            <p class="">
+              Pellentesque elementum libero enim, eget gravida nunc laoreet et.
+              Nullam ac enim auctor, fringilla risus at, imperdiet turpis.
+              Pellentesque elementum libero enim.
+            </p>
+          </div>
+        </div>
+        <div class="row my-3">
+          <div class="col-md-6">
+            <div class="contact-info d-flex py-3">
+              <div class="contact-icon">
+                <i class="text-center w-100 far fa-map"></i>
+              </div>
+              <div class="contact-info ps-3 py-1">
+                <h3 class="fw-bold">Address</h3>
+                <p class="">1650 Lombard Street, San Francisco, CA 94123</p>
+              </div>
+            </div>
+            <div class="contact-info d-flex py-3 phone position-relative">
+              <div class="contact-icon">
+                <i class="text-center w-100 fas fa-mobile-alt"></i>
+              </div>
+              <div class="contact-info ps-3 py-1">
+                <h3 class="fw-bold">Phone</h3>
+                <p class="">+1 (415) 876-3250 / +1 (415) 876-3251</p>
+              </div>
+            </div>
+            <div class="contact-info d-flex py-3">
+              <div class="contact-icon">
+                <i class="text-center w-100 far fa-envelope"></i>
+              </div>
+              <div class="contact-info ps-3 py-1">
+                <h3 class="fw-bold">Say Hello</h3>
+                <p class="">
+                  <a href="" class="email text-decoration-none"
+                    >[email protected]</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="contact-form">
+              <form action="">
+                <form action="mailto:mail@gmail.com">
+                  <input
+                    type="text"
+                    placeholder="Name"
+                    class="w-100 mb-3 p-2 fs-6 rounded-3 input-border"
+                  />
+                  <input
+                    type="email"
+                    placeholder="Email"
+                    class="w-100 mb-3 p-2 fs-6 rounded-3 input-border"
+                  />
+                  <input
+                    type="text"
+                    placeholder="Phone"
+                    class="w-100 mb-3 p-2 fs-6 rounded-3 input-border"
+                  />
+                  <textarea
+                    name="text"
+                    id="#"
+                    placeholder="Message"
+                    class="w-100 mb-3 p-2 fs-6 rounded-3 input-border"
+                    cols="30"
+                    rows="5"
+                  ></textarea>
+                  <button
+                    type="submit"
+                    class="d-block send-btn fw-bold border-0 rounded-2 px-4 py-3"
+                  >
+                    <i class="fas fa-paper-plane"></i> Send Message
+                  </button>
+                </form>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer footer-bg py-5 position-relative">
+      <div
+        class="position-absolute top-0 start-50 translate-middle"
+      >
+        <a href="#home"class="to-top rounded-circle"><i class="fas fa-chevron-up fa-2x text-white"></i></a>
+      </div>
+      <div class="conatiner-md px-4 overflow-hidden">
+        <div class="row">
+          <div class="col-8 offset-2 py-3">
+            <div class="footer-logo py-5 m-auto">
+              <img src="images/footer/icon.png" class="w-100" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-2">
+            <div class="footer-links d-flex flex-column m-2">
+              <h5 class="mb-3">Contact Info</h5>
+              <p>1650 Lombard Street, San Francisco, CA 94123</p>
+              <p>
+                +1 (415) 876-3250
+                <br />
+                <a href="" class="email text-decoration-none"
+                  >[email protected]</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-2">
+            <div class="footer-links d-flex flex-column m-2">
+              <h5 class="mb-3">Useful Links</h5>
+              <a href="">Support</a>
+              <a href="">Privacy Policy</a>
+              <a href="">Terms & Conditions</a>
+              <a href="">Affiliate Program</a>
+              <a href="">Careers</a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-2">
+            <div class="footer-links d-flex flex-column m-2">
+              <h5 class="mb-3">Recent Posts</h5>
+              <a href="">Sunset in Venice</a>
+              <a href="">Aerial View of Village</a>
+              <a href="">Lighted Concrete City</a>
+              <a href="">The Little Ghost</a>
+              <a href="">Royal Oats ft. Waldo</a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-2">
+            <div class="footer-links">
+              <h5 class="mb-3">Popular Tags</h5>
+              <button
+                class="btn btn-transparent border-1 rounded-1 d-inline-block px-0 my-1 me-1"
+              >
+                HTML
+              </button>
+              <button
+                class="btn btn-transparent border-1 rounded-1 d-inline-block px-0 my-1 me-1"
+              >
+                CSS
+              </button>
+              <button
+                class="btn btn-transparent border-1 rounded-1 d-inline-block px-0 my-1 me-1"
+              >
+                jQuery
+              </button>
+              <button
+                class="btn btn-transparent border-1 rounded-1 d-inline-block px-0 my-1 me-1"
+              >
+                UX / UI
+              </button>
+              <button
+                class="btn btn-transparent border-1 rounded-1 d-inline-block px-0 my-1 me-1"
+              >
+                Web
+              </button>
+              <button
+                class="btn btn-transparent border-1 rounded-1 d-inline-block px-0 my-1 me-1"
+              >
+                Graphic
+              </button>
+              <button
+                class="btn btn-transparent border-1 rounded-1 d-inline-block px-0 my-1 me-1"
+              >
+                Design
+              </button>
+              <button
+                class="btn btn-transparent border-1 rounded-1 d-inline-block w-50 px-0 my-1 me-1"
+              >
+                Development
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Footer Copyright -->
+    <section class="copyright footer-copyright-bg py-3">
+      <div class="conatiner-md px-4 py-2">
+        <div
+          class="copyright-wrapper row text-center justify-content-md-between"
+        >
+          <div class="copyright-social col-md-3 mb-3">
+            <a href="#"><i class="fab fa-twitter mx-3 fs-6"></i></a>
+            <a href="#"><i class="fab fa-facebook-f mx-3 fs-6"></i></a>
+            <a href="#"><i class="fab fa-instagram mx-3 fs-6"></i></a>
+            <a href="#"><i class="fab fa-dribbble mx-3 fs-6"></i></a>
+            <a href="#"><i class="fab fa-pinterest mx-3 fs-6"></i></a>
+          </div>
+          <div class="copyright-info col-md-3 offset-md-3">
+            <p>
+              Copyright © 2020
+              <a href="" class="text-decoration-none fw-bold">Angora</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bootstrap & Popper Scripts -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
